@@ -1,4 +1,4 @@
-#count{
+/* #count{
  display: block;
  text-align: center;
  font-size: 10em;
@@ -18,4 +18,25 @@
 }
 .buttons:hover{
     background-color: blueviolet;
+} */
+
+body{  
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#rollbuttons{
+
+    font-size: 3em;
+    border-radius: 10px;
+}
+
+#container{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 1em;
+}
+.rolllabel{
+    padding: 0.5em 0.5em;
 }
